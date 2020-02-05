@@ -1,0 +1,26 @@
+.blogContent {
+  justify-content: center;
+}
+.blogCard {
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+  background: #fafaff;
+}
+.scroll {
+  height: 177vh;
+  overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.blogCard button {
+  background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+  color: #fff;
+  padding: 0 12px;
+  border: 0;
+}
+.numeralData {
+  display: inline-block;
+  margin-left: 25px;
+}

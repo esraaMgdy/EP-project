@@ -1,0 +1,36 @@
+.courseMenu {
+  margin: 14rem auto;
+  text-align: center;
+}
+.scrollMenu {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.courseDesc {
+  white-space: normal;
+}
+.card-con {
+  overflow-x: scroll;
+  width: 100%;
+  margin: -17px auto;
+  padding: 60px;
+}
+.card-con::-webkit-scrollbar {
+  display: none;
+}
+.arrowBtns {
+  margin: 10vh -7.5vw 0 78vw;
+}
+.fa-chevron-left {
+  margin-right: 25px;
+}
+@media (max-width: 870px) {
+  .left-btn {
+    margin: 14vh 3.5vw 0 78vw;
+  }
+  .arrowBtns {
+    margin: 16vh -0.5vw 0 78vw;
+  }
+}

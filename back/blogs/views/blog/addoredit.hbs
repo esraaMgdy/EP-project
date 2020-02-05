@@ -1,0 +1,27 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/blog" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{blog._id}}">
+    <div class="form-group">
+        <label>Subject</label>
+        <input type="text" class="form-control" name="subject" placeholder="Subject" value="{{blog.subject}}">
+        <div class="text-danger">
+            {{blog.subjectError}}</div>
+    </div>
+     <div class="form-group">
+        <label>Author</label>
+        <input type="text" class="form-control" name="author" placeholder="author" value="{{blog.author}}">
+        <div class="text-danger">
+            {{blog.authorError}}</div>
+    </div>
+    <div class="form-group">
+        <label>Blog</label>
+        <textarea  class="form-control" name="content" placeholder="blog" rows="20" cols="50">{{blog.content}}</textarea>
+        <div class="text-danger">
+            {{blog.contentError}}</div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+        <a class="btn btn-secondary" href="/blog/list"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+</form>

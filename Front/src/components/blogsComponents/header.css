@@ -1,0 +1,17 @@
+.header {
+  background-image: url("../../imgs/1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.heading,
+.headerTxt {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.headerTxt {
+  top: 50%;
+  text-align: center;
+}

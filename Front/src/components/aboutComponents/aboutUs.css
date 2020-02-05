@@ -1,0 +1,20 @@
+.head-about {
+  color: #000742;
+  text-align: center;
+  margin-top: 25vh;
+}
+.aboutUs {
+  text-align: center;
+}
+.mission {
+  text-align: center;
+}
+.readmore {
+  background-color: #000742;
+  border: none;
+  color: #f277d1;
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 20px auto;
+}

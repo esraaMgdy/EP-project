@@ -1,0 +1,32 @@
+* {
+  font-size: 20px;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  overflow-x: hidden;
+}
+.logo {
+  color: #000742;
+  font-weight: bold;
+}
+
+.down i {
+  color: #058bb8;
+  font-size: 50px;
+  animation-name: uptodown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes uptodown {
+  25% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}

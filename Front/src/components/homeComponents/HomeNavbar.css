@@ -1,0 +1,18 @@
+.dropdown-toggle::after {
+    display: none;
+  }
+  .navbar-nav .dropdown-home-navbar {
+    position: absolute;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  .dropdown-item:hover {
+    background-color: rgba(7, 42, 64, 0.1);
+  }
+  a,
+  .fa-chevron-down {
+    color: #072a40 !important;
+  }

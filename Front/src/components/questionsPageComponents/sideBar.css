@@ -1,0 +1,15 @@
+.flex-column {
+  margin-top: 60px;
+  padding: 20px 0;
+  background: #fafaff;
+  height: 110vh;
+}
+.nav-pills .nav-link {
+  color: #000;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: transparent;
+  color: #058bb8;
+  border-right: 5px solid #058bb8;
+}

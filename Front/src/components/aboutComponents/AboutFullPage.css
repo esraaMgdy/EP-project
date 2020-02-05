@@ -1,0 +1,150 @@
+.aboutPadge {
+  overflow-x: hidden;
+}
+.headingcontact {
+  color: #058bb8;
+  text-align: center;
+  padding-top: 30vh;
+}
+#contactheader {
+  padding: 70px;
+}
+#contactheader p {
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+}
+#ourWork {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+.about1 {
+  width: 350px;
+  height: 350px;
+  margin: 5%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 10px rgba(5, 139, 184, 0.2);
+}
+.info {
+  float: right;
+  width: 440px;
+  text-align: left;
+  margin: 5%;
+  margin-top: 10%;
+  margin-right: 20%;
+}
+.info h1 {
+  color: #058bb8;
+  text-align: left;
+}
+.aboutTxt {
+  text-align: center !important;
+}
+.info p {
+  color: gray;
+  opacity: 0.7;
+  margin: 20px 0;
+}
+.info button {
+  background-image: linear-gradient(to right, #058bb8, #000742);
+  border: none;
+  width: 200px;
+  height: 45px !important;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.info button:hover {
+  background: none;
+  border: #000742 solid 2px;
+  color: #058bb8;
+}
+.cards {
+  width: 100%;
+  background-color: rgba(5, 139, 184, 0.1);
+  margin-top: 15vh;
+  text-align: center;
+  padding: 50px;
+}
+.cards h1 {
+  color: black;
+  text-align: center;
+  padding-top: 10vh;
+}
+.cards p {
+  color: gray;
+  text-align: left;
+  padding: 10px 60px;
+}
+.cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.teamMembers {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  margin: 60px 0;
+  justify-content: center;
+}
+.teamMembers::-webkit-scrollbar {
+  display: none;
+}
+.c1,
+.c2,
+.c3 {
+  display: inline-block;
+  width: 300px;
+  background-color: white;
+  margin-left: 5%;
+  border-radius: 5px;
+  transition: box-shadow 1s;
+  flex: 0 0 auto;
+  display: inline-block;
+  float: none;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover {
+  box-shadow: 10px 10px 10px rgba(5, 139, 184, 0.2);
+}
+
+.joinUsCard {
+  height: 110px;
+  margin: 25px auto;
+}
+.joinUsCard p,
+.joinUsCard button,
+.cards #icons,
+.descTxt {
+  text-align: center;
+}
+.joinUsBtn {
+  width: 150px;
+  background: #000742;
+  color: #f277d1 !important;
+  border: 0;
+  border-radius: 5px;
+  height: 45px;
+  transition: box-shadow 1s;
+}
+.joinUsBtn:hover {
+  box-shadow: 5px 5px 5px rgba(5, 139, 184, 0.2);
+}
+@media (max-width: 1000px) {
+  #ourWork {
+    flex-direction: column;
+  }
+  .about1 {
+    margin: 90px auto;
+  }
+  .info {
+    margin: auto;
+  }
+  .c1,
+  .c2,
+  .c3 {
+    width: 300px;
+  }
+}

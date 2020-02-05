@@ -1,0 +1,35 @@
+<h3><a class="btn btn-secondary" href="/blog"><i class="fa fa-plus"></i> Create New</a> Blog List</h3>
+ <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Author</th>
+            <th>Blog</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.Subject}}</td>
+            <td>{{this.Author}}</td>
+            <td>{{this.Blog}}</td>
+            <td>
+                <a href="/blog/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                <a href="/blog/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this blog ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+
+</table> 
+
+{{!-- {{#each lsit}}
+<div>
+    <h3>{{this.subject}}</h3>
+    <h4>{{this.author}}</h4>
+    <p>{{this.content}}</p>
+    <a href="/blog/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+    <a href="/blog/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this blog ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+</div>
+{{/each}} --}}

@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#contactheader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../imgs/bg2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.headingcontact {
+  color: #058bb8;
+  text-align: center;
+  padding-top: 30vh;
+}
+#contactheader p {
+  color: white;
+  text-align: center;
+}
+.down i {
+  color: #058bb8;
+  font-size: 50px;
+  animation-name: uptodown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes uptodown {
+  25% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+#contactform {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow-y: hidden;
+}
+#contactform h1 {
+  color: #058bb8;
+  font-weight: bold;
+  padding-top: 10vh;
+  text-align: center;
+}
+.contactForm input,
+.contactForm textarea {
+  width: 70%;
+  height: 45px;
+  border: 1px solid #000742;
+  border-radius: 5px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  outline: 0;
+}
+.contactForm input::placeholder {
+  color: rgba(0, 7, 66, 0.2);
+}
+.contactForm textarea {
+  height: 200px;
+  resize: none;
+}
+.contactForm .send {
+  width: 70%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000742;
+  color: #f277d1;
+  transition: 2s ease-in-out;
+  font-weight: bold;
+  margin-bottom: 85px;
+}
+.contactForm .send:hover {
+  background: none;
+  border: 2px solid #000742;
+}
+::placeholder {
+  color: #000742;
+}
+::value {
+  color: #000742;
+}
+#contactform {
+  width: 100%;
+  height: 100vh;
+}

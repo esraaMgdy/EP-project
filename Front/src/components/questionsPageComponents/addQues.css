@@ -1,0 +1,19 @@
+.addQuesForm {
+  padding: 50px;
+}
+.textArea {
+  resize: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00aee0;
+}
+.addBtn {
+  margin-left: 0px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  background: #00aee0;
+  color: #fff;
+}
